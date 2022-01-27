@@ -1,8 +1,8 @@
 {
-  "name": "react-instagram-oauth",
+  "name": "@senabo/react-instagram-oauth",
   "description": "React component for simple OAuth with Instagram",
   "main": "dist/index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Alexandr Tovmach",
     "url": "https://alexandrtovmach.com/",
@@ -74,6 +74,10 @@
   },
   "homepage": "https://alexandrtovmach.github.io/react-instagram-login",
   "repository": {
-    "url": "https://github.com/alexandrtovmach/react-instagram-login"
-  }
+    "type": "git",
+    "url": "https://github.com/senabo/react-instagram-login"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/senabo"
+  },
 }
